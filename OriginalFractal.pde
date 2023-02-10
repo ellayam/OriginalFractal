@@ -4,7 +4,7 @@ public void setup() {
   rectMode(CENTER);
   frameRate(3);
   fill(50,0);
-  stroke(150);
+  stroke(175);
 }
 
 public void draw() {
