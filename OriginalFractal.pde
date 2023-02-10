@@ -1,8 +1,10 @@
 public void setup() {
   size(500,500);
-  background(255);
+  background(75);
   rectMode(CENTER);
   frameRate(3);
+  fill(50,0);
+  stroke(150);
 }
 
 public void draw() {
@@ -10,7 +12,6 @@ public void draw() {
 }
 
 public void fractal(int x, int y, int size) {
-  fill((int)(Math.random()*80)+150,(int)(Math.random()*80)+150,(int)(Math.random()*80)+150);
   if(size <= 20) {
     rect(x,y,size,size);
   } else {
